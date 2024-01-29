@@ -1,0 +1,12 @@
+def miniMaxSum(arr):
+    arr.sort()
+
+    min_sum = sum(arr[:-1])
+
+    max_sum = sum(arr[1:])
+
+    print(min_sum, max_sum)
+
+input_arr = [1, 2, 3, 4, 5]
+
+miniMaxSum(input_arr)
